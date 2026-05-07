@@ -9,7 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/adriansh/Documents/final_project/src/glad.c" "CMakeFiles/hello_window.dir/src/glad.c.o" "gcc" "CMakeFiles/hello_window.dir/src/glad.c.o.d"
+  "/Users/adriansh/Documents/final_project/src/config.cpp" "CMakeFiles/hello_window.dir/src/config.cpp.o" "gcc" "CMakeFiles/hello_window.dir/src/config.cpp.o.d"
   "/Users/adriansh/Documents/final_project/src/main.cpp" "CMakeFiles/hello_window.dir/src/main.cpp.o" "gcc" "CMakeFiles/hello_window.dir/src/main.cpp.o.d"
+  "/Users/adriansh/Documents/final_project/src/material.cpp" "CMakeFiles/hello_window.dir/src/material.cpp.o" "gcc" "CMakeFiles/hello_window.dir/src/material.cpp.o.d"
   "/Users/adriansh/Documents/final_project/src/triangle_mesh.cpp" "CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.o" "gcc" "CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.o.d"
   )
 

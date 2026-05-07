@@ -1,5 +1,5 @@
-CMakeFiles/hello_window.dir/src/main.cpp.o: \
-  /Users/adriansh/Documents/final_project/src/main.cpp \
+CMakeFiles/hello_window.dir/src/config.cpp.o: \
+  /Users/adriansh/Documents/final_project/src/config.cpp \
   /Users/adriansh/Documents/final_project/src/config.h \
   /Users/adriansh/Documents/final_project/dependencies/glad/glad.h \
   /Users/adriansh/Documents/final_project/dependencies/KHR/khrplatform.h \
@@ -791,5 +791,7 @@ CMakeFiles/hello_window.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/adriansh/Documents/final_project/src/triangle_mesh.h \
-  /Users/adriansh/Documents/final_project/src/material.h
+  /Users/adriansh/Documents/final_project/src/stb_image.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h

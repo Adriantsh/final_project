@@ -72,10 +72,24 @@ include CMakeFiles/hello_window.dir/flags.make
 CMakeFiles/hello_window.dir/codegen:
 .PHONY : CMakeFiles/hello_window.dir/codegen
 
+CMakeFiles/hello_window.dir/src/config.cpp.o: CMakeFiles/hello_window.dir/flags.make
+CMakeFiles/hello_window.dir/src/config.cpp.o: /Users/adriansh/Documents/final_project/src/config.cpp
+CMakeFiles/hello_window.dir/src/config.cpp.o: CMakeFiles/hello_window.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adriansh/Documents/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello_window.dir/src/config.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_window.dir/src/config.cpp.o -MF CMakeFiles/hello_window.dir/src/config.cpp.o.d -o CMakeFiles/hello_window.dir/src/config.cpp.o -c /Users/adriansh/Documents/final_project/src/config.cpp
+
+CMakeFiles/hello_window.dir/src/config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello_window.dir/src/config.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adriansh/Documents/final_project/src/config.cpp > CMakeFiles/hello_window.dir/src/config.cpp.i
+
+CMakeFiles/hello_window.dir/src/config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello_window.dir/src/config.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adriansh/Documents/final_project/src/config.cpp -o CMakeFiles/hello_window.dir/src/config.cpp.s
+
 CMakeFiles/hello_window.dir/src/main.cpp.o: CMakeFiles/hello_window.dir/flags.make
 CMakeFiles/hello_window.dir/src/main.cpp.o: /Users/adriansh/Documents/final_project/src/main.cpp
 CMakeFiles/hello_window.dir/src/main.cpp.o: CMakeFiles/hello_window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adriansh/Documents/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello_window.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adriansh/Documents/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hello_window.dir/src/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_window.dir/src/main.cpp.o -MF CMakeFiles/hello_window.dir/src/main.cpp.o.d -o CMakeFiles/hello_window.dir/src/main.cpp.o -c /Users/adriansh/Documents/final_project/src/main.cpp
 
 CMakeFiles/hello_window.dir/src/main.cpp.i: cmake_force
@@ -89,7 +103,7 @@ CMakeFiles/hello_window.dir/src/main.cpp.s: cmake_force
 CMakeFiles/hello_window.dir/src/glad.c.o: CMakeFiles/hello_window.dir/flags.make
 CMakeFiles/hello_window.dir/src/glad.c.o: /Users/adriansh/Documents/final_project/src/glad.c
 CMakeFiles/hello_window.dir/src/glad.c.o: CMakeFiles/hello_window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adriansh/Documents/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/hello_window.dir/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adriansh/Documents/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/hello_window.dir/src/glad.c.o"
 	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hello_window.dir/src/glad.c.o -MF CMakeFiles/hello_window.dir/src/glad.c.o.d -o CMakeFiles/hello_window.dir/src/glad.c.o -c /Users/adriansh/Documents/final_project/src/glad.c
 
 CMakeFiles/hello_window.dir/src/glad.c.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/hello_window.dir/src/glad.c.s: cmake_force
 CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.o: CMakeFiles/hello_window.dir/flags.make
 CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.o: /Users/adriansh/Documents/final_project/src/triangle_mesh.cpp
 CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.o: CMakeFiles/hello_window.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adriansh/Documents/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adriansh/Documents/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.o -MF CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.o.d -o CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.o -c /Users/adriansh/Documents/final_project/src/triangle_mesh.cpp
 
 CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.i: cmake_force
@@ -114,23 +128,41 @@ CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adriansh/Documents/final_project/src/triangle_mesh.cpp -o CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.s
 
+CMakeFiles/hello_window.dir/src/material.cpp.o: CMakeFiles/hello_window.dir/flags.make
+CMakeFiles/hello_window.dir/src/material.cpp.o: /Users/adriansh/Documents/final_project/src/material.cpp
+CMakeFiles/hello_window.dir/src/material.cpp.o: CMakeFiles/hello_window.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/adriansh/Documents/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hello_window.dir/src/material.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello_window.dir/src/material.cpp.o -MF CMakeFiles/hello_window.dir/src/material.cpp.o.d -o CMakeFiles/hello_window.dir/src/material.cpp.o -c /Users/adriansh/Documents/final_project/src/material.cpp
+
+CMakeFiles/hello_window.dir/src/material.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello_window.dir/src/material.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adriansh/Documents/final_project/src/material.cpp > CMakeFiles/hello_window.dir/src/material.cpp.i
+
+CMakeFiles/hello_window.dir/src/material.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello_window.dir/src/material.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adriansh/Documents/final_project/src/material.cpp -o CMakeFiles/hello_window.dir/src/material.cpp.s
+
 # Object files for target hello_window
 hello_window_OBJECTS = \
+"CMakeFiles/hello_window.dir/src/config.cpp.o" \
 "CMakeFiles/hello_window.dir/src/main.cpp.o" \
 "CMakeFiles/hello_window.dir/src/glad.c.o" \
-"CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.o"
+"CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.o" \
+"CMakeFiles/hello_window.dir/src/material.cpp.o"
 
 # External object files for target hello_window
 hello_window_EXTERNAL_OBJECTS =
 
+hello_window: CMakeFiles/hello_window.dir/src/config.cpp.o
 hello_window: CMakeFiles/hello_window.dir/src/main.cpp.o
 hello_window: CMakeFiles/hello_window.dir/src/glad.c.o
 hello_window: CMakeFiles/hello_window.dir/src/triangle_mesh.cpp.o
+hello_window: CMakeFiles/hello_window.dir/src/material.cpp.o
 hello_window: CMakeFiles/hello_window.dir/build.make
 hello_window: /opt/homebrew/lib/libglfw.3.4.dylib
 hello_window: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
 hello_window: CMakeFiles/hello_window.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/adriansh/Documents/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable hello_window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/adriansh/Documents/final_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable hello_window"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello_window.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

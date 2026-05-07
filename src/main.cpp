@@ -1,5 +1,6 @@
 #include "config.h"
 #include "triangle_mesh.h"
+#include "material.h"
 
 unsigned int make_shader(const std::string& vertex_filepath, const std::string& fragment_filepath);
 
@@ -33,6 +34,7 @@ int main() {
     glViewport(0,0,w,h);
 
     TriangleMesh* triangle = new TriangleMesh();
+    Material* material = new Material("../img/sea_otter.jpg");
 
     unsigned int shader = make_shader(
         "../src/shaders/vertex.txt",
@@ -44,6 +46,7 @@ int main() {
 
         glClear(GL_COLOR_BUFFER_BIT);
         glUseProgram(shader);
+        material->use();
         triangle->draw();
         glfwSwapBuffers(window);
     }
