@@ -30,6 +30,7 @@ Material::~Material() {
     glDeleteTextures(1, &texture);
 }
 
-void Material::use() {
+void Material::use(int unit) {
+    glActiveTexture(GL_TEXTURE0 + unit);
     glBindTexture(GL_TEXTURE_2D, texture);
 }

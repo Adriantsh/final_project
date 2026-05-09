@@ -28,30 +28,44 @@ int main() {
         return -1;
     }
 
-    glClearColor(0.25f, 0.5f, 0.75f, 1.0f);
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     int w,h;
     glfwGetFramebufferSize(window, &w, &h);
     glViewport(0,0,w,h);
 
     TriangleMesh* triangle = new TriangleMesh();
     Material* material = new Material("../img/sea_otter.jpg");
+    Material* mask = new Material("../img/mask.jpg");
 
     unsigned int shader = make_shader(
         "../src/shaders/vertex.txt",
         "../src/shaders/fragment.txt"
     );
+
+    //set texture units
+    glUseProgram(shader);
+    glUniform1i(glGetUniformLocation(shader, "material"), 0);
+    glUniform1i(glGetUniformLocation(shader, "mask"), 1);
+
+    //enable alpha blending
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     
     while(!glfwWindowShouldClose(window)) {
         glfwPollEvents();
 
         glClear(GL_COLOR_BUFFER_BIT);
         glUseProgram(shader);
-        material->use();
+        material->use(0);
+        mask->use(1);
         triangle->draw();
         glfwSwapBuffers(window);
     }
 
     glDeleteProgram(shader);
+    delete triangle;
+    delete material;
+    delete mask;
     glfwTerminate();
     return 0;
 }
