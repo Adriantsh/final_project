@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/hello_window.dir/src/config.cpp.o.d"
   "CMakeFiles/hello_window.dir/src/glad.c.o"
   "CMakeFiles/hello_window.dir/src/glad.c.o.d"
+  "CMakeFiles/hello_window.dir/src/linear_algebra.cpp.o"
+  "CMakeFiles/hello_window.dir/src/linear_algebra.cpp.o.d"
   "CMakeFiles/hello_window.dir/src/main.cpp.o"
   "CMakeFiles/hello_window.dir/src/main.cpp.o.d"
   "CMakeFiles/hello_window.dir/src/material.cpp.o"

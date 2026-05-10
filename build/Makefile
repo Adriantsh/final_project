@@ -184,6 +184,30 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_window.dir/build.make CMakeFiles/hello_window.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
+src/linear_algebra.o: src/linear_algebra.cpp.o
+.PHONY : src/linear_algebra.o
+
+# target to build an object file
+src/linear_algebra.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_window.dir/build.make CMakeFiles/hello_window.dir/src/linear_algebra.cpp.o
+.PHONY : src/linear_algebra.cpp.o
+
+src/linear_algebra.i: src/linear_algebra.cpp.i
+.PHONY : src/linear_algebra.i
+
+# target to preprocess a source file
+src/linear_algebra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_window.dir/build.make CMakeFiles/hello_window.dir/src/linear_algebra.cpp.i
+.PHONY : src/linear_algebra.cpp.i
+
+src/linear_algebra.s: src/linear_algebra.cpp.s
+.PHONY : src/linear_algebra.s
+
+# target to generate assembly for a file
+src/linear_algebra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_window.dir/build.make CMakeFiles/hello_window.dir/src/linear_algebra.cpp.s
+.PHONY : src/linear_algebra.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -272,6 +296,9 @@ help:
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
+	@echo "... src/linear_algebra.o"
+	@echo "... src/linear_algebra.i"
+	@echo "... src/linear_algebra.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

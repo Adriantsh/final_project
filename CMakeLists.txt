@@ -11,6 +11,7 @@ add_executable(hello_window
     src/triangle_mesh.h
     src/triangle_mesh.cpp
     src/material.cpp
+    src/linear_algebra.cpp
 )
 
 target_include_directories(hello_window 

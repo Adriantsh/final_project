@@ -792,4 +792,5 @@ CMakeFiles/hello_window.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Users/adriansh/Documents/final_project/src/triangle_mesh.h \
-  /Users/adriansh/Documents/final_project/src/material.h
+  /Users/adriansh/Documents/final_project/src/material.h \
+  /Users/adriansh/Documents/final_project/src/linear_algebra.h

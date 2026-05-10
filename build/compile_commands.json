@@ -28,5 +28,11 @@
   "command": "/usr/bin/clang++  -I/Users/adriansh/Documents/final_project/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/hello_window.dir/src/material.cpp.o -c /Users/adriansh/Documents/final_project/src/material.cpp",
   "file": "/Users/adriansh/Documents/final_project/src/material.cpp",
   "output": "CMakeFiles/hello_window.dir/src/material.cpp.o"
+},
+{
+  "directory": "/Users/adriansh/Documents/final_project/build",
+  "command": "/usr/bin/clang++  -I/Users/adriansh/Documents/final_project/dependencies -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/hello_window.dir/src/linear_algebra.cpp.o -c /Users/adriansh/Documents/final_project/src/linear_algebra.cpp",
+  "file": "/Users/adriansh/Documents/final_project/src/linear_algebra.cpp",
+  "output": "CMakeFiles/hello_window.dir/src/linear_algebra.cpp.o"
 }
 ]
